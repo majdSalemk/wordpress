@@ -1,0 +1,45 @@
+2023-10-30T07:43:54+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\e-commerc2\wordpress\wp-content\plugins\elementor\includes\template-library\sources\local.php:897
+Stack trace:
+#0 C:\xampp\htdocs\e-commerc2\wordpress\wp-content\plugins\elementor\includes\template-library\manager.php(477): Elementor\TemplateLibrary\Source_Local->import_template('Finlay-gs6r7i.z...', 'C:\\xampp\\htdocs...')
+#1 [internal function]: Elementor\TemplateLibrary\Manager->import_template(Array)
+#2 C:\xampp\htdocs\e-commerc2\wordpress\wp-content\plugins\elementor\includes\template-library\manager.php(595): call_user_func(Array, Array)
+#3 C:\xampp\htdocs\e-commerc2\wordpress\wp-content\plugins\elementor\includes\template-library\manager.php(628): Elementor\TemplateLibrary\Manager->handle_ajax_request('import_template', Array)
+#4 [internal function]: Elementor\TemplateLibrary\Manager->Elementor\TemplateLibrary\{closure}(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 C:\xampp\htdocs\e-commerc2\wordpress\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Object(Closure), Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 C:\xampp\htdocs\e-commerc2\wordpress\wp-includes\class-wp-hook.php(310): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#7 C:\xampp\htdocs\e-commerc2\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\e-commerc2\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\e-commerc2\wordpress\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#10 {main}
+  thrown in C:\xampp\htdocs\e-commerc2\wordpress\wp-content\plugins\elementor\includes\template-library\sources\local.php on line 897
+
+2023-10-30T07:44:13+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\e-commerc2\wordpress\wp-content\plugins\elementor\includes\template-library\sources\local.php:897
+Stack trace:
+#0 C:\xampp\htdocs\e-commerc2\wordpress\wp-content\plugins\elementor\includes\template-library\manager.php(477): Elementor\TemplateLibrary\Source_Local->import_template('Finlay-gs6r7i.z...', 'C:\\xampp\\htdocs...')
+#1 [internal function]: Elementor\TemplateLibrary\Manager->import_template(Array)
+#2 C:\xampp\htdocs\e-commerc2\wordpress\wp-content\plugins\elementor\includes\template-library\manager.php(595): call_user_func(Array, Array)
+#3 C:\xampp\htdocs\e-commerc2\wordpress\wp-content\plugins\elementor\includes\template-library\manager.php(628): Elementor\TemplateLibrary\Manager->handle_ajax_request('import_template', Array)
+#4 [internal function]: Elementor\TemplateLibrary\Manager->Elementor\TemplateLibrary\{closure}(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 C:\xampp\htdocs\e-commerc2\wordpress\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Object(Closure), Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 C:\xampp\htdocs\e-commerc2\wordpress\wp-includes\class-wp-hook.php(310): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#7 C:\xampp\htdocs\e-commerc2\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\e-commerc2\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\e-commerc2\wordpress\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#10 {main}
+  thrown in C:\xampp\htdocs\e-commerc2\wordpress\wp-content\plugins\elementor\includes\template-library\sources\local.php on line 897
+
+2023-10-30T07:46:12+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\e-commerc2\wordpress\wp-content\plugins\elementor\includes\template-library\sources\local.php:897
+Stack trace:
+#0 C:\xampp\htdocs\e-commerc2\wordpress\wp-content\plugins\elementor\includes\template-library\manager.php(477): Elementor\TemplateLibrary\Source_Local->import_template('Finlay-gs6r7i.z...', 'C:\\xampp\\htdocs...')
+#1 [internal function]: Elementor\TemplateLibrary\Manager->import_template(Array)
+#2 C:\xampp\htdocs\e-commerc2\wordpress\wp-content\plugins\elementor\includes\template-library\manager.php(595): call_user_func(Array, Array)
+#3 C:\xampp\htdocs\e-commerc2\wordpress\wp-content\plugins\elementor\includes\template-library\manager.php(628): Elementor\TemplateLibrary\Manager->handle_ajax_request('import_template', Array)
+#4 [internal function]: Elementor\TemplateLibrary\Manager->Elementor\TemplateLibrary\{closure}(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 C:\xampp\htdocs\e-commerc2\wordpress\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Object(Closure), Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 C:\xampp\htdocs\e-commerc2\wordpress\wp-includes\class-wp-hook.php(310): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#7 C:\xampp\htdocs\e-commerc2\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\e-commerc2\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\e-commerc2\wordpress\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#10 {main}
+  thrown in C:\xampp\htdocs\e-commerc2\wordpress\wp-content\plugins\elementor\includes\template-library\sources\local.php on line 897
+
